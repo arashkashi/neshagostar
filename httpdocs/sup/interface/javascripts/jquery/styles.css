@@ -1,0 +1,27 @@
+
+#info {
+	display: block;
+	padding: 10px; margin-bottom: 20px;
+	border: 1px solid #333;
+	background-color: #efefef;
+}
+
+#product-list {
+	list-style: none;
+}
+
+#product-list li {
+	display: block;
+	padding: 8px;
+	background:#efefef;
+	width:100px;
+	float:right;
+	height:50px;
+	border:1px solid #111;
+	
+}
+.ui-sortable{ height:500px;}
+
+#product-list li img.handle {
+	cursor: move;
+}

@@ -1,0 +1,159 @@
+BODY {
+  COLOR: #666666;
+  FONT-FAMILY: Tahoma,Arial,Helvetica,sans-serif;
+  FONT-SIZE: 11px;
+  /* this attribute sets the basis for all the other scrollbar colors (Internet Explorer 5.5+ only) */
+  SCROLLBAR-BASE-COLOR:  #666666;
+  SCROLLBAR-ARROW-COLOR: #FCDC43;
+}
+
+UL, LI, P, TD, TR {
+  COLOR: #666666;
+  FONT-FAMILY: Tahoma,Arial,Helvetica,sans-serif;
+  FONT-SIZE: 11px;
+}
+
+.headline {
+  FONT-FAMILY: Tahoma,Arial,Helvetica,sans-serif;
+  FONT-SIZE: 18px;
+  FONT-WEIGHT: bold;
+}
+
+.smalltext {
+  FONT-FAMILY: Tahoma,Arial,Helvetica,sans-serif;
+  FONT-SIZE: 10px;
+  FONT-WEIGHT: normal;
+}
+
+.marktext {
+  COLOR: #FF0000;
+}
+.msg {
+  FONT-FAMILY: Tahoma,Arial,Helvetica,sans-serif;
+  FONT-SIZE: 11px;
+  COLOR: #FF0000;
+  FONT-WEIGHT:bold;
+}
+.rowtitle {
+  FONT-WEIGHT:bold;
+}
+a:link, a:visited, a:active {
+  color: #0F5475;
+  text-decoration: none;
+}
+a:hover {
+  COLOR: #FCDC43;
+  BACKGROUND-COLOR: #666666;
+}
+FORM {
+  FONT-FAMILY: Tahoma,Arial,Helvetica,sans-serif;
+  FONT-SIZE: 11px;
+}
+SELECT, INPUT, TEXTAREA {
+  FONT-FAMILY: Tahoma,Arial,Helvetica,sans-serif;
+  COLOR: #000;
+  FONT-SIZE: 11px;
+}
+.dropdownmarker {
+  BACKGROUND-COLOR: #EEEEEE;
+  COLOR: #136C99;
+  FONT-SIZE: 11px;
+  FONT-WEIGHT: bold;
+}
+
+/*-- Tables ----------------------------------------------*/
+
+.tplmarktag {
+  COLOR: #ffffff;
+  FONT-WEIGHT: bold;
+  BACKGROUND-COLOR: #ff0000;
+}
+
+/*-- Tables ----------------------------------------------*/
+
+.tableheader {
+  COLOR: #fff;
+  FONT-WEIGHT: bold;
+  BACKGROUND-COLOR: #666666;
+}
+.tableseparator {
+  COLOR: #fff;
+  FONT-WEIGHT: bold;
+  BACKGROUND-COLOR: #666666;
+}
+.tableseparator a {
+  COLOR: #FCDC43;
+  FONT-WEIGHT: bold;
+  BACKGROUND-COLOR: #666666;
+  text-decoration: none;
+}
+.tableseparator2 {
+  COLOR: #eeeeee;
+  FONT-WEIGHT: bold;
+  BACKGROUND-COLOR: #666666;
+}
+.tableseparator2 a {
+  COLOR: #eeeeee;
+  FONT-WEIGHT: bold;
+  BACKGROUND-COLOR: #666666;
+  text-decoration: none;
+}
+.tableseparator2 a:visited {
+  COLOR: #eeeeee;
+  FONT-WEIGHT: bold;
+  BACKGROUND-COLOR: #666666;
+  text-decoration: none;
+}
+.tableseparator2 a:hover{
+  COLOR: #FCDC43;
+  FONT-WEIGHT: bold;
+  BACKGROUND-COLOR: #666666;
+  text-decoration: none;
+}
+.tablerow {
+  BACKGROUND-COLOR: #E5E5E5;
+}
+.tablerow2 {
+  BACKGROUND-COLOR: #F5F5F5;
+}
+.even {
+   BACKGROUND-COLOR: #E5E5E5;
+}
+.odd {
+  BACKGROUND-COLOR: #F5F5F5;
+}
+.tablefooter {
+  COLOR: #FCDC43;
+  FONT-WEIGHT: bold;
+  BACKGROUND-COLOR: #666666;
+}
+.tableborder {
+  BACKGROUND-COLOR: #666666;
+}
+
+
+
+/*-- Navigation ------------------------------------------*/
+
+.navheader {
+  COLOR: #FFFFFF;
+  FONT-WEIGHT: bold;
+  BACKGROUND-COLOR: #666666;
+}
+.navlink, navlink:visited, navlink:acitive {
+  COLOR: #0F5475;
+  text-decoration:none;
+}
+
+.navlink:hover {
+  COLOR: #000000;
+  BACKGROUND-COLOR: #cccccc;
+}
+
+.button {
+  FONT-FAMILY: MS Sans Serif, Tahoma,Arial, Helvetica, sans-serif;
+  BACKGROUND-COLOR: #666666;
+  COLOR: #fff;
+  FONT-SIZE: 11px;
+  FONT-WEIGHT: bold;
+}

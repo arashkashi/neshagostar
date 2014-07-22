@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: /mainLib/
+Disallow: /sup/
+Disallow: /requirements/

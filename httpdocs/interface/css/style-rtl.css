@@ -1,0 +1,27 @@
+body			{ font-family:Tahoma, Geneva, sans-serif; font-size:12px;}
+.floatImg		{ float:right; margin:0 0 5px 8px;}
+
+
+.topHeader h1	{ background:url(../images/logoFa.gif) no-repeat; float:right; }
+.topHeader .lang{ float:left;}
+
+.searchBox	{ float:left;}
+.menu		{ float:right;}
+.menu a		{ float:right; border-left:1px solid #545454;}
+
+.container		{ direction:rtl; text-align:right;}
+.content		{ float:right;}
+.sideBar		{ float:left;}
+.topHeader .lang{ direction:rtl}
+
+h1.title		{ padding:5px 22px 5px 5px; background:url(../images/bull1.gif) no-repeat right;}
+.searchBody .input{ text-align:right;}
+
+.sideNews span{ padding:0 10px 3px 0;}
+.sideNews a{background:url(../images/bull2.gif) no-repeat right 8px; padding:0 10px 0 0;}
+
+.lblForm{ text-align:left;}
+
+.productsImg{ float:right; padding:0 0 0 15px;}
+.productsImgThumbs a{ float:right;}
+

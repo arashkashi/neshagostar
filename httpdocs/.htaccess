@@ -1,0 +1,121 @@
+# bad request
+ErrorDocument 400 /errorDocuments/badRequest.html
+# Authorization Required‎
+ErrorDocument 401 /errorDocuments/authorizationRequired.html
+# access forbidden
+ErrorDocument 403 /errorDocuments/accessForbidden.html
+# document not found
+ErrorDocument 404 /errorDocuments/pageNotFound.html
+# internal server error
+ErrorDocument 500 /errorDocuments/maintenance.html
+
+# Set the default handler.
+DirectoryIndex index.php index.html index.htm
+
+# Don\'t show directory listings for URLs which map to a directory.
+Options -Indexes
+
+# Follow symbolic links in this directory.
+Options +FollowSymLinks
+
+# Protect files and directories from prying eyes.
+<FilesMatch "\.(pdf|test|sql|bak)$|^(development|documents|old|garbage|docs|pdf|test|delete)$">
+	Order allow,deny
+</FilesMatch>
+
+# Force simple error message for requests for non-existent favicon.ico.
+<Files favicon.ico>
+	# There is no end quote below, for compatibility with Apache 1.3.
+	ErrorDocument 404 "The requested file favicon.ico was not found.
+</Files>
+
+
+# Override PHP settings.
+# but the following cannot be changed at runtime.
+
+# PHP 4, Apache 1.
+<IfModule mod_php4.c>
+	php_value magic_quotes_gpc                0
+	php_value register_globals                0
+	php_value session.auto_start              0
+	php_value mbstring.http_input             pass
+	php_value mbstring.http_output            pass
+	php_value mbstring.encoding_translation   0
+</IfModule>
+
+# PHP 4, Apache 2.
+<IfModule sapi_apache2.c>
+	php_value magic_quotes_gpc                0
+	php_value register_globals                0
+	php_value session.auto_start              0
+	php_value mbstring.http_input             pass
+	php_value mbstring.http_output            pass
+	php_value mbstring.encoding_translation   0
+</IfModule>
+
+# PHP 5, Apache 1 and 2.
+<IfModule mod_php5.c>
+	php_value magic_quotes_gpc                0
+	php_value register_globals                0
+	php_value session.auto_start              0
+	php_value mbstring.http_input             pass
+	php_value mbstring.http_output            pass
+	php_value mbstring.encoding_translation   0
+
+	# Just in case   
+	#php_flag magic_quotes_runtime  			off
+	#php_flag magic_quotes_sybase              	off
+	#php_flag register_globals                 	off
+	#php_flag session.auto_start               	off
+	#php_flag output_buffering  				off
+	#php_flag register_argc_argv  				on
+	#php_flag mysql.allow_persistent  			off
+	#php_flag register_long_arrays  			on
+	#php_flag allow_url_fopen  					on
+	#php_flag cgi.force_redirect  				on
+	#php_flag enable_dl  						on
+	#php_value upload_max_filesize 				2M
+	#php_value max_execution_time  				30
+	#php_value max_input_time  					60
+	#php_value memory_limit  					32M
+	#php_value post_max_size  					8M
+	#php_flag file_uploads  					on
+	
+	#For Debuging
+	#php_flag display_errors 					on
+	#php_value error_reporting                 "E_ALL & ~E_NOTICE"
+	#php_value error_log 						/home/../error.log
+	#php_flag log_errors  						off
+</IfModule>
+
+# Requires mod_expires to be enabled.
+<IfModule mod_expires.c>
+	# Enable expirations.
+	ExpiresActive On
+
+	# Cache all files for 2 weeks after access (A).
+	ExpiresDefault A1209600
+
+	<FilesMatch \.php$>
+		# Do not allow PHP scripts to be cached unless they explicitly send cache
+		# headers themselves. Otherwise all scripts would have to overwrite the
+		# headers set by mod_expires if they want another caching behavior. This may
+		# fail if an error occurs early in the bootstrap process, and it may cause
+		# problems if a non PHP file is installed in a subdirectory.
+		ExpiresActive Off
+	</FilesMatch>
+</IfModule>
+
+<IfModule mod_rewrite.c>
+	RewriteEngine On
+	RewriteCond %{REQUEST_URI} !sup/.*
+	RewriteCond %{REQUEST_URI} (interface|data)/.*
+	RewriteCond %{QUERY_STRING} ^$
+	RewriteRule ^.*(interface\/.*|data\/.*)$ $1 [L]
+
+	RewriteCond %{REQUEST_URI} !(requirements|mainLib|sup|interface|data)/?.*
+	#RewriteCond %{QUERY_STRING} ^$
+	RewriteCond %{REQUEST_URI} (sn|lang|cn)/.*
+	RewriteCond %{REQUEST_URI} !=/favicon.ico
+	RewriteRule ^(cn\/([^\/]*))?(.*)$ /$2?qs=$3 [L,QSA]
+</IfModule>

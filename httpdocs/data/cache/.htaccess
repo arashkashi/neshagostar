@@ -1,0 +1,18 @@
+
+			# Compressed css files
+			# Set the encoding sent to the browser
+			AddEncoding x-gzip .cgz
+			AddType text/css .cgz
+			
+			# Compressed javascript files
+			AddEncoding x-gzip .jgz
+			AddType application/x-javascript .jgz
+			
+			FileETag none
+			
+			<IfModule mod_expires.c>
+			# enable expirations
+			ExpiresActive On
+			ExpiresDefault "access plus 1 week"
+			</IfModule>
+			

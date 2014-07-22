@@ -1,0 +1,18 @@
+296c296,310
+< if($passed_data = xinha_read_passed_data())
+---
+> session_start();
+> if (isset($_REQUEST['backend_data']) or isset($_SESSION['customConfig'])) {
+>  	
+>  	if (isset($_REQUEST['backend_data'])) {
+>  		$__n=unserialize(stripcslashes($_REQUEST['backend_data']['data']));
+>  	
+>  		$IMConfig=array_merge($IMConfig,$__n);
+>  		$_SESSION['customConfig']=$IMConfig;
+> 		//echo '<pre>';print_r($IMConfig);echo '</pre>';
+>  	} elseif (isset($_SESSION['customConfig'])) {
+>  		$IMConfig=$_SESSION['customConfig'];
+> 	}
+> 
+> 
+> } elseif($passed_data = xinha_read_passed_data())

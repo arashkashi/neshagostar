@@ -1,0 +1,135 @@
+/* ------------------------------------------------
+
+	Style by : Hossein Hashemi
+	Email : Hashemi42@gmail.com
+	Date : 17 April 2009
+
+------------------------------------------------ */
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td{margin:0;padding:0;}
+table{border-collapse:collapse;border-spacing:0;}
+
+img{ border:0;}
+.clearfloat {clear:both;height:0;font-size: 1px;line-height: 0px;}
+input , select , textarea { font-family:Tahoma; font-size:12px;}
+.btn, .submit_recruit{cursor:pointer;}
+a {text-decoration: none; color:#2989df;}
+a:hover {text-decoration: none;color:#000;}
+h1, h2, h3, h4, h5{font-size:12px;}
+img.rightImg{ float:right; margin:0 0 5px 8px;}
+img.leftImg	{ float:left; margin:0 8px 5px 0;}
+.table{ margin:0 auto;}
+.table td{ padding:3px;}
+.star{ color:#F00;}
+
+/*------------------ Page Layout ------------------*/
+html			{ background:url(../images/htmlBg.gif) repeat-x #fafafa;}
+body			{ background:url(../images/bg.gif) top no-repeat; font-family:Tahoma, Geneva, sans-serif; font-size:12px;}
+#wrap 			{ width:892px; margin:0 auto;}
+.container		{ padding:7px 0 7px 0;}
+
+.content		{ width:664px;}
+.page			{ padding:10px; line-height:1.8em;}
+.sideBar		{ width:218px;}
+
+.body			{ padding:5px; line-height:1.8em; color:#5f5e5e; text-align:justify;}
+h1.title		{ font:20px Arial, Helvetica, sans-serif; color:#636363; border-bottom:1px solid #dad8d8;}
+h2.title		{ padding:10px 0;color:#656565;}
+h3.title		{ padding:10px 5px; border-bottom:1px dashed #c7c6c6; color:#656565;}
+
+.input			{ padding:3px; border:1px solid #BBB;}
+textarea 		{ padding:3px; border:1px solid #BBB;}
+select			{ border:1px solid #BBB;}
+
+/*------------------ header ------------------*/
+.header 			{ }
+.topHeader			{ height:80px;}
+	.topHeader h1	{ width:234px; height:80px; line-height:250px; overflow:hidden;}
+	.topHeader h1 a	{ width:234px; height:80px; display:block;}
+	.topHeader .lang{ padding:30px 10px 0 10px;}
+
+.searchBox{ padding:12px 0 0 2px;}
+.searchBody{background:url(../images/searchBox.gif); width:176px; height:27px;}
+.searchBody .btn{ border:0; cursor:pointer; background:none; width:25px; height:27px; color: transparent; font-size: 0;  overflow:hidden; line-height:150px; padding:0; float:left;}
+.searchBody .input{ float:right; border:0; background:none; padding:5px 5px 0 0; width:140px; color:#444;}
+
+/*------------------- menu -------------------*/
+.menuBox			{ height:54px;height:54px; background:url(../images/menu.gif) 0 -102px repeat-x;}
+	.menuBox .left	{ background:url(../images/menu.gif) no-repeat left 0; padding:0 0 0 10px; height:51px;}
+	.menuBox .right	{ background:url(../images/menu.gif) no-repeat right -51px;padding:0 10px 0 0; height:51px;}
+	
+.menu				{ direction:rtl; text-align:right; height:22px; width:680px; padding:16px 0 0 0; }
+.menu a				{ color:#DDD; display:block; height:22px; line-height:18px; padding:0 8px; font-size:12px;}
+.menu a:hover		{ color:#FFF;}
+
+
+
+
+/*------------------- slideShow -------------------*/
+.slideShow{ height:250px;}
+
+
+/*------------------- Product -------------------*/
+.productsImg{ width:183px;}
+.productsImgThumbs img	{ border:1px solid #DDD;}
+.productsImgThumbs a	{ display:block; width:50px; height:50px; padding:5px; text-align:center;}
+
+
+/*------------------- eOrder -------------------*/
+.eOrder fieldset{ padding:8px; border:1px solid #DDD;}
+.eOrder legend{ font-weight:bold; color:#555;}
+.eOrderTbl{ margin:0 auto;}
+.eOrderTbl td{ padding:5px;}
+.eOrderTbl .lblForm{}
+.eOrderTbl .fldForm{}
+.submitBtnBox{ text-align:center; padding:8px;}
+
+/*------------------- Product -------------------*/
+.productsListItem{ width:300px; float:right; height:170px; padding:10px; text-align:center; font-weight:bold;}
+.productsListItem img{ margin:0 0 10px 0;}
+
+/*------------------- Contact -------------------*/
+.contactForm{}
+.contactform{ margin:0 auto;}
+.contactform td{ padding:3px;}
+
+/*------------------- Home Box -------------------*/
+.homeBox{}
+.row1{ padding:0 0 10px 0;}
+.row2{}
+.row2 .right, .row2 .left{ width:327px;}
+.row2 .right{ float:right;}
+.row2 .left	{ float:left;}
+
+/*------------------- news -------------------*/
+.newsDate{ text-align:left; padding:5px; border-top:1px solid #DDD; margin:15px 0 0 0; color:#BBB;}
+.newsBody{ color:#5F5E5E; line-height:1.3; text-align:justify;}
+
+.newsItem .newsBody{ padding:8px 10px 0 10px;}
+.newsDateList{ padding:3px; background:#f2f2f2; text-align:left; font-size:11px;}
+
+/*------------------- Side Bar -------------------*/
+.customersLogin{ margin:0 auto;}
+.customersLogin td{ padding:3px;}
+.customersLogin .input{ background:url(../images/input.gif); width:110px; height:16px; padding:3px 8px 3px 8px; border:0; text-align:left;}
+.customersLogin .btn{ background:url(../images/btn.gif) no-repeat; width:63px; padding:0 0 6px 0; border:0; color:#FFF;}
+
+.sideBox{ padding:5px 0 0 0;}
+.sideNews{ padding:5px 0 15px 0;}
+.sideNews span{ display:block; color:#AAA; font-size:10px; letter-spacing:2px; }
+.sideNews a{ display:block; color:#555;}
+.sideNews a:hover{ color:#2989df;}
+
+/*------------------- footer -------------------*/
+.footer			{ border-top:1px solid #AAA; color:#686868; padding:10px 10px 0 10px; text-align:center; height:30px}
+.footer .left	{ float:left;}
+.footer .right	{ float:right;}
+
+/*------------------ Msg ------------------*/
+.err , .errorBox	{background:url(../images/err.gif) no-repeat right #ffd8d6; padding:10px 35px 10px 10px; border:1px solid #ff0038;margin:5px;}
+.ok , .messageBox	{background:url(../images/ok.gif) no-repeat right #e4f6de; padding:10px 35px 10px 10px; border:1px solid #8fdc79; margin:5px;}
+.alert				{background:url(../images/alert.gif) no-repeat right #fff0ba; padding:10px 35px 10px 10px; border:1px solid #e87c29;margin:5px;}
+
+.ok a, .messageBox a{font-weight:bold; color:#33F; line-height:2;}
+.ok a:hover, .messageBox a:hover{ color:#BB002F;}
+
+

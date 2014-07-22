@@ -1,0 +1,47 @@
+body {
+	background-color: #FFFFFF;
+	font-family: tahoma,Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	/*color: #880000;*/
+	scrollbar-3dlight-color: #F0F0EE;
+	scrollbar-arrow-color: #676662;
+	scrollbar-base-color: #F0F0EE;
+	scrollbar-darkshadow-color: #DDDDDD;
+	scrollbar-face-color: #E0E0DD;
+	scrollbar-highlight-color: #F0F0EE;
+	scrollbar-shadow-color: #F0F0EE;
+	scrollbar-track-color: #F5F5F5;
+	/*direction:rtl;*/
+	margin:5px;
+}
+
+iframe {
+	direction:rtl;
+}
+
+
+input:focus, textarea:focus, label:focus {
+	background: #fff;
+	border: 1px solid #686868;
+}
+
+textarea, input, select {
+	background: #f4f4f4;
+	border: 1px solid #b2b2b2;
+	color: #000;
+	font:  12px tahoma;
+	margin: 1px;
+	padding: 3px;
+	direction:rtl;
+}
+
+/* STYLES ADDED BY EHSAN */
+
+a{
+	text-decoration:none;
+	color:#333333;
+}
+a:hover{
+	text-decoration:none;
+	color:#8799a9;
+}

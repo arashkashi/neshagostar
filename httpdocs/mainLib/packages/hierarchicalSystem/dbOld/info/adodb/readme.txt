@@ -1,0 +1,1 @@
+Put ADODB library v4.51 or later here

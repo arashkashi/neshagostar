@@ -1,0 +1,26 @@
+body			{ font-family:Verdana, Geneva, sans-serif; font-size:12px;}
+.floatImg		{ float:left; margin:0 8px 5px 0;}
+
+
+.topHeader h1	{ background:url(../images/logoEn.gif) no-repeat; float:left; }
+.topHeader .lang{ float:right;}
+
+.searchBox	{ float:right;}
+.menu		{ float:left;}
+.menu a		{ float:left; border-right:1px solid #545454;}
+
+.container		{ direction:ltr; text-align:left;}
+.content		{ float:left;}
+.sideBar		{ float:right;}
+.topHeader .lang{ direction:ltr}
+
+h1.title		{ padding:5px 5px 5px 22px; background:url(../images/bull.gif) no-repeat left;}
+.searchBody .input{ text-align:left;}
+
+.sideNews span{ padding:0 0 3px 10px;}
+.sideNews a{background:url(../images/bull3.gif) no-repeat left 8px; padding:0 0 0 10px;}
+
+.lblForm{ text-align:right;}
+
+.productsImg{ float:left; padding:0 15px 0 0;}
+.productsImgThumbs a{ float:left;}

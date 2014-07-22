@@ -1,0 +1,29 @@
+333d332
+< 
+338c337,351
+< if($passed_data = xinha_read_passed_data())
+---
+> 
+> session_start();
+> if (isset($_REQUEST['backend_data']) or isset($_SESSION['customConfig'])) {
+> 	
+> 	if (isset($_SESSION['customConfig'])) {
+> 		$IMConfig=$_SESSION['customConfig'];
+> 	} elseif (isset($_REQUEST['backend_data'])) {
+> 		$__n=unserialize(stripcslashes($_REQUEST['backend_data']['data']));
+> 	
+> 		$IMConfig=array_merge($IMConfig,$__n);
+> 		$_SESSION['customConfig']=$IMConfig;
+> 		//echo '<pre>';print_r($IMConfig);echo '</pre>';
+> 	}
+> 
+> } elseif($passed_data = xinha_read_passed_data())
+345a359
+> 
+375a390
+> 
+387c402
+< ?>
+---
+> ?>
+\ No newline at end of file

@@ -1,0 +1,106 @@
+				<html xmlns:o="urn:schemas-microsoft-com:office:office"
+				xmlns:x="urn:schemas-microsoft-com:office:excel"
+				xmlns="http://www.w3.org/TR/REC-html40">
+
+				<head>
+				<meta http-equiv=Content-Type content="text/html; charset=us-ascii">
+				<meta name=ProgId content=Excel.Sheet>
+				<!--[if gte mso 9]><xml>
+				 <o:DocumentProperties>
+				  <o:LastAuthor>Sriram</o:LastAuthor>
+				  <o:LastSaved>2005-01-02T07:46:23Z</o:LastSaved>
+				  <o:Version>10.2625</o:Version>
+				 </o:DocumentProperties>
+				 <o:OfficeDocumentSettings>
+				  <o:DownloadComponents/>
+				 </o:OfficeDocumentSettings>
+				</xml><![endif]-->
+				<style>
+				<!--table
+					{mso-displayed-decimal-separator:"\.";
+					mso-displayed-thousand-separator:"\,";}
+				@page
+					{margin:1.0in .75in 1.0in .75in;
+					mso-header-margin:.5in;
+					mso-footer-margin:.5in;}
+				tr
+					{mso-height-source:auto;}
+				col
+					{mso-width-source:auto;}
+				br
+					{mso-data-placement:same-cell;}
+				.style0
+					{mso-number-format:General;
+					text-align:general;
+					vertical-align:bottom;
+					white-space:nowrap;
+					mso-rotate:0;
+					mso-background-source:auto;
+					mso-pattern:auto;
+					color:windowtext;
+					font-size:10.0pt;
+					font-weight:400;
+					font-style:normal;
+					text-decoration:none;
+					font-family:Arial;
+					mso-generic-font-family:auto;
+					mso-font-charset:0;
+					border:none;
+					mso-protection:locked visible;
+					mso-style-name:Normal;
+					mso-style-id:0;}
+				td
+					{mso-style-parent:style0;
+					padding-top:1px;
+					padding-right:1px;
+					padding-left:1px;
+					mso-ignore:padding;
+					color:windowtext;
+					font-size:10.0pt;
+					font-weight:400;
+					font-style:normal;
+					text-decoration:none;
+					font-family:Arial;
+					mso-generic-font-family:auto;
+					mso-font-charset:0;
+					mso-number-format:General;
+					text-align:general;
+					vertical-align:bottom;
+					border:none;
+					mso-background-source:auto;
+					mso-pattern:auto;
+					mso-protection:locked visible;
+					white-space:nowrap;
+					mso-rotate:0;}
+				.xl24
+					{mso-style-parent:style0;
+					white-space:normal;}
+				-->
+				</style>
+				<!--[if gte mso 9]><xml>
+				 <x:ExcelWorkbook>
+				  <x:ExcelWorksheets>
+				   <x:ExcelWorksheet>
+					<x:Name>srirmam</x:Name>
+					<x:WorksheetOptions>
+					 <x:Selected/>
+					 <x:ProtectContents>False</x:ProtectContents>
+					 <x:ProtectObjects>False</x:ProtectObjects>
+					 <x:ProtectScenarios>False</x:ProtectScenarios>
+					</x:WorksheetOptions>
+				   </x:ExcelWorksheet>
+				  </x:ExcelWorksheets>
+				  <x:WindowHeight>10005</x:WindowHeight>
+				  <x:WindowWidth>10005</x:WindowWidth>
+				  <x:WindowTopX>120</x:WindowTopX>
+				  <x:WindowTopY>135</x:WindowTopY>
+				  <x:ProtectStructure>False</x:ProtectStructure>
+				  <x:ProtectWindows>False</x:ProtectWindows>
+				 </x:ExcelWorkbook>
+				</xml><![endif]-->
+				</head>
+
+				<body link=blue vlink=purple>
+				<table x:str border=0 cellpadding=0 cellspacing=0 style='border-collapse: collapse;table-layout:fixed;'><tr><td class=xl24 width=64 >id</td><td class=xl24 width=64 >name</td><td class=xl24 width=64 >description</td><td class=xl24 width=64 >photo_file_name</td><td class=xl24 width=64 >flag_photo_file_name</td></tr><tr><td class=xl24 width=64 >3</td><td class=xl24 width=64 >آلمان</td><td class=xl24 width=64 >توضیحاتی در مورد آلمان</td><td class=xl24 width=64 >teams_test.jpg</td><td class=xl24 width=64 >teams_ger.gif</td></tr><tr><td class=xl24 width=64 >2</td><td class=xl24 width=64 >ایران</td><td class=xl24 width=64 >مهاجم تيم ملي فوتبال مكزيك اعلام كرد كه تنها حضور در جام جهاني براي آنها كافي نيست بلكه بازيكنان تيم ملي مكزيك بايد چهره واقعي اين تيم را به جهانيان نشان بدهند. 
+
+به نقل از سايت DPA، خارد بورگتي مهاجم تيم ملي فوتبال مكزيك معتقد است در جام جهاني 2006 تيم ملي كشورش مي تواند به مراحل پاياني مسابقات صعود كند.</td><td class=xl24 width=64 >43812teams_Winter.jpg</td><td class=xl24 width=64 >teams_irn.gif</td></tr><tr><td class=xl24 width=64 >4</td><td class=xl24 width=64 >کاستاریکا</td><td class=xl24 width=64 >توضیحاتی در مورد تیم</td><td class=xl24 width=64 ></td><td class=xl24 width=64 >teams_crc.gif</td></tr><tr><td class=xl24 width=64 >5</td><td class=xl24 width=64 >لهستان</td><td class=xl24 width=64 >توضیحاتی در مورد تیم</td><td class=xl24 width=64 ></td><td class=xl24 width=64 >teams_pol.gif</td></tr><tr><td class=xl24 width=64 >6</td><td class=xl24 width=64 >اکوادور</td><td class=xl24 width=64 >توضیحاتی در مورد تیم</td><td class=xl24 width=64 ></td><td class=xl24 width=64 >teams_ecu.gif</td></tr><tr><td class=xl24 width=64 >7</td><td class=xl24 width=64 >انگلستان</td><td class=xl24 width=64 >توضیحاتی در مورد تیم</td><td class=xl24 width=64 ></td><td class=xl24 width=64 >teams_eng.gif</td></tr><tr><td class=xl24 width=64 >8</td><td class=xl24 width=64 >پاراگوئه</td><td class=xl24 width=64 >توضیحاتی در مورد تیم</td><td class=xl24 width=64 >311195teams_Untitled-1.jpg</td><td class=xl24 width=64 >teams_Untitled-1.jpg</td></tr><tr><td class=xl24 width=64 >9</td><td class=xl24 width=64 >ترینیدا و توباکو</td><td class=xl24 width=64 >توضیحاتی در مورد تیم</td><td class=xl24 width=64 ></td><td class=xl24 width=64 >teams_tri.gif</td></tr><tr><td class=xl24 width=64 >10</td><td class=xl24 width=64 >سوئد</td><td class=xl24 width=64 >توضیحاتی در مورد تیم</td><td class=xl24 width=64 ></td><td class=xl24 width=64 >teams_swe.gif</td></tr><tr><td class=xl24 width=64 >11</td><td class=xl24 width=64 >آرژانتین</td><td class=xl24 width=64 >توضیحاتی در مورد تیم</td><td class=xl24 width=64 ></td><td class=xl24 width=64 >teams_arg.gif</td></tr><tr><td class=xl24 width=64 >12</td><td class=xl24 width=64 >ساحل عاج</td><td class=xl24 width=64 >توضیحاتی در مورد تیم</td><td class=xl24 width=64 ></td><td class=xl24 width=64 >teams_civ.gif</td></tr><tr><td class=xl24 width=64 >13</td><td class=xl24 width=64 >صربستان مونته نگرو</td><td class=xl24 width=64 >توضیحاتی در مورد تیم</td><td class=xl24 width=64 ></td><td class=xl24 width=64 >teams_scg.gif</td></tr><tr><td class=xl24 width=64 >14</td><td class=xl24 width=64 >هلند</td><td class=xl24 width=64 >توضیحاتی در مورد تیم</td><td class=xl24 width=64 ></td><td class=xl24 width=64 >teams_ned.gif</td></tr><tr><td class=xl24 width=64 >15</td><td class=xl24 width=64 >مکزیک</td><td class=xl24 width=64 >توضیحاتی در مورد تیم</td><td class=xl24 width=64 ></td><td class=xl24 width=64 >teams_mex.gif</td></tr><tr><td class=xl24 width=64 >16</td><td class=xl24 width=64 >آنگولا</td><td class=xl24 width=64 >توضیحاتی در مورد تیم</td><td class=xl24 width=64 ></td><td class=xl24 width=64 >teams_ang.gif</td></tr><tr><td class=xl24 width=64 >17</td><td class=xl24 width=64 >پرتغال</td><td class=xl24 width=64 >توضیحاتی در مورد تیم</td><td class=xl24 width=64 ></td><td class=xl24 width=64 >teams_por.gif</td></tr><tr><td class=xl24 width=64 >18</td><td class=xl24 width=64 >ایتالیا</td><td class=xl24 width=64 >توضیحاتی در مورد تیم</td><td class=xl24 width=64 ></td><td class=xl24 width=64 >teams_ita.gif</td></tr><tr><td class=xl24 width=64 >19</td><td class=xl24 width=64 >غنا</td><td class=xl24 width=64 >توضیحاتی در مورد تیم</td><td class=xl24 width=64 ></td><td class=xl24 width=64 >teams_gha.gif</td></tr><tr><td class=xl24 width=64 >20</td><td class=xl24 width=64 >آمریکا</td><td class=xl24 width=64 >توضیحاتی در مورد تیم</td><td class=xl24 width=64 ></td><td class=xl24 width=64 >teams_usa.gif</td></tr><tr><td class=xl24 width=64 >21</td><td class=xl24 width=64 >جمهوری چک</td><td class=xl24 width=64 >توضیحاتی در مورد تیم</td><td class=xl24 width=64 ></td><td class=xl24 width=64 >teams_cze.gif</td></tr><tr><td class=xl24 width=64 >22</td><td class=xl24 width=64 >برزیل</td><td class=xl24 width=64 >توضیحاتی در مورد تیم</td><td class=xl24 width=64 ></td><td class=xl24 width=64 >teams_bra.gif</td></tr><tr><td class=xl24 width=64 >23</td><td class=xl24 width=64 >کرواسی</td><td class=xl24 width=64 >توضیحاتی در مورد تیم</td><td class=xl24 width=64 ></td><td class=xl24 width=64 >teams_cro.gif</td></tr><tr><td class=xl24 width=64 >24</td><td class=xl24 width=64 >استرالیا</td><td class=xl24 width=64 >توضیحاتی در مورد تیم</td><td class=xl24 width=64 ></td><td class=xl24 width=64 >teams_aus.gif</td></tr><tr><td class=xl24 width=64 >25</td><td class=xl24 width=64 >ژاپن</td><td class=xl24 width=64 >توضیحاتی در مورد تیم</td><td class=xl24 width=64 ></td><td class=xl24 width=64 >teams_jpn.gif</td></tr><tr><td class=xl24 width=64 >26</td><td class=xl24 width=64 >فرانسه</td><td class=xl24 width=64 >توضیحاتی در مورد تیم</td><td class=xl24 width=64 ></td><td class=xl24 width=64 >teams_fra.gif</td></tr><tr><td class=xl24 width=64 >27</td><td class=xl24 width=64 >سویس</td><td class=xl24 width=64 >توضیحاتی در مورد تیم</td><td class=xl24 width=64 ></td><td class=xl24 width=64 >teams_sui.gif</td></tr><tr><td class=xl24 width=64 >28</td><td class=xl24 width=64 >کره جنوبی</td><td class=xl24 width=64 >توضیحاتی در مورد تیم</td><td class=xl24 width=64 ></td><td class=xl24 width=64 >teams_kor.gif</td></tr><tr><td class=xl24 width=64 >29</td><td class=xl24 width=64 >توگو</td><td class=xl24 width=64 >توضیحاتی در مورد تیم</td><td class=xl24 width=64 ></td><td class=xl24 width=64 >teams_tog.gif</td></tr><tr><td class=xl24 width=64 >30</td><td class=xl24 width=64 >اسپانیا</td><td class=xl24 width=64 >توضیحاتی در مورد تیم</td><td class=xl24 width=64 ></td><td class=xl24 width=64 >teams_esp.gif</td></tr><tr><td class=xl24 width=64 >31</td><td class=xl24 width=64 >اوکراین</td><td class=xl24 width=64 >توضیحاتی در مورد تیم</td><td class=xl24 width=64 ></td><td class=xl24 width=64 >teams_ukr.gif</td></tr><tr><td class=xl24 width=64 >32</td><td class=xl24 width=64 >تونس</td><td class=xl24 width=64 >توضیحاتی در مورد تیم</td><td class=xl24 width=64 ></td><td class=xl24 width=64 >teams_tun.gif</td></tr><tr><td class=xl24 width=64 >33</td><td class=xl24 width=64 >عربستان صعودی</td><td class=xl24 width=64 >توضیحاتی در مورد تیم</td><td class=xl24 width=64 ></td><td class=xl24 width=64 >teams_ksa.gif</td></tr></table></body></html>

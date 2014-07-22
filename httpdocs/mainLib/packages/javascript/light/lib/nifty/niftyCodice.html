@@ -1,0 +1,122 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<title>nifty.js code</title>
+<meta http-equiv="content-type" content="text/html; charset=iso-8859-1">
+<meta name="generator" content="HAPedit 3.0">
+<style type="text/css">
+pre{background: #FFC}
+pre em{color: #0080FF;font-family: arial,serif}
+pre strong{ color: #000066}
+</style>
+</head>
+<body>
+<pre>
+<strong>function NiftyCheck()</strong>
+{
+if(!document.getElementById || !document.createElement)
+    return(false);
+var b=navigator.userAgent.toLowerCase();
+if(b.indexOf("msie 5")>0 && b.indexOf("opera")==-1)
+    return(false);
+return(true);
+}
+
+<strong>function Rounded(selector,bk,color,size)</strong>{
+var i;
+var v=getElementsBySelector(selector);
+var l=v.length;
+for(i=0;i&lt;l;i++){
+    AddTop(v[i],bk,color,size);
+    AddBottom(v[i],bk,color,size);
+    }
+}
+
+<strong>function RoundedTop(selector,bk,color,size)</strong>{
+var i;
+var v=getElementsBySelector(selector);
+for(i=0;i&lt;v.length;i++)
+    AddTop(v[i],bk,color,size);
+}
+
+<strong>function RoundedBottom(selector,bk,color,size)</strong>{
+var i;
+var v=getElementsBySelector(selector);
+for(i=0;i&lt;v.length;i++)
+    AddBottom(v[i],bk,color,size);
+}
+
+<strong>function AddTop(el,bk,color,size)</strong>{
+var i;
+var d=document.createElement(&quot;b&quot;);
+var cn=&quot;r&quot;;
+var lim=4;
+if(size &amp;&amp; size==&quot;small&quot;){ cn=&quot;rs&quot;; lim=2}
+d.className=&quot;rtop&quot;;
+d.style.backgroundColor=bk;
+for(i=1;i&lt;=lim;i++){
+    var x=document.createElement(&quot;b&quot;);
+    x.className=cn + i;
+    x.style.backgroundColor=color;
+    d.appendChild(x);
+    }
+el.insertBefore(d,el.firstChild);
+}
+
+<strong>function AddBottom(el,bk,color,size)</strong>{
+var i;
+var d=document.createElement(&quot;b&quot;);
+var cn=&quot;r&quot;;
+var lim=4;
+if(size &amp;&amp; size==&quot;small&quot;){ cn=&quot;rs&quot;; lim=2}
+d.className=&quot;rbottom&quot;;
+d.style.backgroundColor=bk;
+for(i=lim;i&gt;0;i--){
+    var x=document.createElement(&quot;b&quot;);
+    x.className=cn + i;
+    x.style.backgroundColor=color;
+    d.appendChild(x);
+    }
+el.appendChild(d,el.firstChild);
+}
+
+<strong>function getElementsBySelector(selector)</strong>{
+var i;
+var s=[];
+var selid=&quot;&quot;;
+var selclass=&quot;&quot;;
+var tag=selector;
+var objlist=[];
+if(selector.indexOf(&quot; &quot;)&gt;0){  <em>//descendant selector like &quot;tag#id tag&quot;</em>
+    s=selector.split(&quot; &quot;);
+    var fs=s[0].split(&quot;#&quot;);
+    if(fs.length==1) return(objlist);
+    return(document.getElementById(fs[1]).getElementsByTagName(s[1]));
+    }
+if(selector.indexOf(&quot;#&quot;)&gt;0){ <em>//id selector like &quot;tag#id&quot;</em>
+    s=selector.split(&quot;#&quot;);
+    tag=s[0];
+    selid=s[1];
+    }
+if(selid!=&quot;&quot;){
+    objlist.push(document.getElementById(selid));
+    return(objlist);
+    }
+if(selector.indexOf(&quot;.&quot;)&gt;0){  <em>//class selector like &quot;tag.class&quot;</em>
+    s=selector.split(&quot;.&quot;);
+    tag=s[0];
+    selclass=s[1];
+    }
+var v=document.getElementsByTagName(tag);  <em>// tag selector like &quot;tag&quot;</em>
+if(selclass==&quot;&quot;)
+    return(v);
+for(i=0;i&lt;v.length;i++){
+    if(v[i].className==selclass){
+        objlist.push(v[i]);
+        }
+    }
+return(objlist);
+}
+</pre>
+</body>
+</html>
